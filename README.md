@@ -1,4 +1,4 @@
-#A simple number guessing game in Python
+<h2>A simple number guessing game in Python</h2>
 
 Just started out in Python, and created a simple number guessing game created.
 
