@@ -1,9 +1,7 @@
 <h2>A simple number guessing game in Python</h2>
 
-Just started learning some Python programming, and created a simple number guessing game.
-
-Guess the number between 1 and 100 (integers only).
-After every guess, the program will tell you the new range where the answer is between.
-This game uses bisection search to tell the player where the number is between.
+A simple number guessing game created in Python.
+The computer will choose a random number between 1 and 100, and you (the player) has to guess what it is.
+The computer will tell you the range where the number is located between. The range will update after each round.
 
 See how many times it takes you to guess the number.
