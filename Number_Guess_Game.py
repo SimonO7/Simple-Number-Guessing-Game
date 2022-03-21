@@ -1,5 +1,12 @@
-#Number guessing game
 import random
+
+'''
+Simple number guessing game
+
+The computer will choose a random number between 1 and 100, and the player has to guess what it is.
+The computer will tell the player the range where the number is located between. 
+The range will update after each round, using bisection search to determine the range.
+'''
 
 lower = 1
 upper = 100
@@ -31,5 +38,3 @@ while True:
 		guesses += 1
 	else:
 		print("Number out of bounds. Try again")
-		
-	
